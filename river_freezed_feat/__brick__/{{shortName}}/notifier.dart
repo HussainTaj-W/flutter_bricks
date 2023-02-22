@@ -1,5 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import 'state.dart';
+
 class {{name.pascalCase()}}StateNotifier extends StateNotifier<{{name.pascalCase()}}State> {
   final Ref ref;
 

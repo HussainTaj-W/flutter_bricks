@@ -11,7 +11,7 @@ class {{name.pascalCase()}}Screen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final {{name.camelCase()}}State = ref.watch({{name.camelCase()}}Provider);
+    final {{name.camelCase()}}State = ref.watch({{name.camelCase()}}StateProvider);
 
     return const Placeholder();
   }
